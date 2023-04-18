@@ -1,5 +1,6 @@
 # RemoteProjectRemo
 Remote github repository for my personal projects
+I made a new repo and first thing I did was make a typo. Meant to write "Repo". lol. Eh, small steaks. 
 
 4/18/23:
 today, I started a tutorial on typescript and node.js
