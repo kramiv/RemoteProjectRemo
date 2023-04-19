@@ -26,4 +26,4 @@ Can't really go wrong with any of these, I guess. I would like a tutorial that h
 I found this awesome resource on learning system design. Well, a few. The donnemartin whatever one on github and this series of video lectures: 
 https://www.youtube.com/@SystemDesignInterview
 
-I think that learning system design would be best done with experience. Same for data structures and algorithms. I'm trying to build little apps to practice these things and to just have some sort of creative output. I've been doing so much documentation at work the past week or so. I want to do coding too :p
+I think that learning system design would be best done with experience. Same for data structures and algorithms. I'm trying to build little apps to practice these things and to just have some sort of creative output.
