@@ -5,6 +5,9 @@ Remote github repository for my personal projects.
 I will be figuring out a way to deploy some basic websites that will be easier to look at than this repo. 
 
 I think I want to learn scala and try to deploy a full-stack app using just scala and aws. something primarily with those.
+https://stackshare.io/stackups/cplusplus-vs-scala
+
+Scala is a sibling to Java. Aws is a very common technology right now as well.
 
 https://www.youtube.com/watch?v=OfngvXKNkpM
 
