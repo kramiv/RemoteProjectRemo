@@ -4,7 +4,7 @@ Remote github repository for my personal projects.
 
 I will be figuring out a way to deploy some basic websites that will be easier to look at than this repo. 
 
-I think I want to learn scala and try to deploy a full-stack app using just scala and aws. something primarily with those. probably start with just read and click functionality. 
+I think I want to learn scala and try to deploy a full-stack app using just scala and aws. something primarily with those. probably start with just read and click functionality. Maybe I could somehow incorporate Redis for cache handling as well?
 
 At some point, I want to review C++ and do some data structures + algorithms with it. 
 
