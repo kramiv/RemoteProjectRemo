@@ -4,6 +4,7 @@ Remote github repository for my personal projects.
 
 I will be figuring out a way to deploy some basic websites that will be easier to look at than this repo. 
 
+https://www.youtube.com/watch?v=OfngvXKNkpM
 
 https://youtu.be/-ifcPnXHn8Q
 
