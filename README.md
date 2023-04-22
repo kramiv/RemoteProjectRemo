@@ -19,3 +19,7 @@ I think that learning system design would be best done with experience. Same for
 Something to generally explore: 
 
 https://roadmap.sh/
+
+https://www.fingent.com/blog/top-7-tech-stacks-that-reign-software-development/
+
+want to practice microservices app and find a way to monitor performance as well.
