@@ -2,6 +2,10 @@
 # RemoteProjectRemo
 Remote github repository for my personal projects.
 
+todo:
+
+figure out deployment strategies with apps that use Scala. I can either build a local app and take screenshots or record a video demo or deploy it somehow. Maybe find some scala.js app to do first.
+
 I will be figuring out a way to deploy some basic websites that will be easier to look at than this repo. 
 
 I think I want to learn scala and try to deploy a full-stack app using just scala and aws. something primarily with those. probably start with just read and click functionality. Maybe I could somehow incorporate Redis for cache handling as well?
