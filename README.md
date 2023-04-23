@@ -41,3 +41,5 @@ https://roadmap.sh/
 https://www.fingent.com/blog/top-7-tech-stacks-that-reign-software-development/
 
 want to practice microservices app and find a way to monitor performance as well.
+
+i should study advanced java examples. a java app - pull it from someone else's repo and add new functionality. open source sutff.
