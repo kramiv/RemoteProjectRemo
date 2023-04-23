@@ -49,3 +49,498 @@ INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (e
 2023.04.23 13:35:13 INFO  time: ran 'sbt bloopInstall' in 44s
 2023.04.23 13:35:13 INFO  Attempting to connect to the build server...
 2023.04.23 13:35:13 INFO  Setting up current java home C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 in C:\Users\ivana\.bloop\bloop.json
+2023.04.23 13:35:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 13:35:35 INFO  Attempting to connect to the build server...
+2023.04.23 13:35:35 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 13:35:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 13:35:36 INFO  time: Connected to build server in 23s
+2023.04.23 13:35:36 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 13:35:36 INFO  time: Imported build in 0.24s
+2023.04.23 13:35:46 INFO  time: indexed workspace in 9.86s
+2023.04.23 13:35:48 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:36:22 INFO  time: compiled hello-world in 34s
+2023.04.23 13:37:40 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:37:44 INFO  time: compiled hello-world in 4.37s
+2023.04.23 13:37:44 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:37:46 INFO  time: compiled hello-world in 1.85s
+2023.04.23 13:37:47 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:37:51 INFO  time: compiled hello-world in 3.46s
+2023.04.23 13:37:59 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:38:00 INFO  time: compiled hello-world in 1.26s
+2023.04.23 13:38:03 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:38:03 INFO  time: compiled hello-world in 0.9s
+2023.04.23 13:38:08 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:38:08 INFO  time: compiled hello-world in 0.72s
+2023.04.23 13:39:29 INFO  time: evaluated worksheet 'chapter0.worksheet.worksheet.sc' in 16s
+2023.04.23 13:39:31 INFO  time: evaluated worksheet 'chapter0.worksheet.worksheet.sc' in 1.64s
+2023.04.23 13:39:32 INFO  time: evaluated worksheet 'chapter0.worksheet.worksheet.sc' in 1.12s
+2023.04.23 13:39:45 INFO  time: code lens generation in 2.22s
+2023.04.23 13:39:46 INFO  time: evaluated worksheet 'chapter0.worksheet.worksheet.sc' in 3.63s
+2023.04.23 13:58:44 INFO  compiling hello-world (1 scala source)
+2023.04.23 13:58:45 INFO  time: compiled hello-world in 1.3s
+2023.04.23 13:59:36 INFO  compiling hello-world (2 scala sources)
+2023.04.23 13:59:37 INFO  time: compiled hello-world in 1.41s
+Apr 23, 2023 1:59:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 23, 2023 1:59:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.04.23 13:59:43 INFO  compiling hello-world (2 scala sources)
+2023.04.23 13:59:43 INFO  time: compiled hello-world in 0.24s
+2023.04.23 13:59:49 INFO  compiling hello-world (2 scala sources)
+2023.04.23 13:59:49 INFO  time: compiled hello-world in 0.18s
+2023.04.23 14:00:03 INFO  compiling hello-world (2 scala sources)
+2023.04.23 14:00:03 INFO  time: compiled hello-world in 0.28s
+2023.04.23 14:00:05 INFO  compiling hello-world (2 scala sources)
+2023.04.23 14:00:07 INFO  time: compiled hello-world in 1.5s
+2023.04.23 14:00:27 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:00:29 INFO  time: compiled hello-world in 1.87s
+2023.04.23 14:00:40 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:00:41 INFO  time: compiled hello-world in 1.55s
+2023.04.23 14:02:16 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:02:16 INFO  time: compiled hello-world in 0.58s
+2023.04.23 14:02:23 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:02:23 INFO  time: compiled hello-world in 0.8s
+2023.04.23 14:03:21 WARN  Could not load snapshot text for C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\src\main\scala\demolambda\DemoLambda.scala
+2023.04.23 14:03:21 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:03:21 INFO  time: compiled hello-world in 0.82s
+2023.04.23 14:05:06 INFO  time: evaluated worksheet 'chapter0.worksheet.worksheet.sc' in 0.79s
+2023.04.23 14:07:57 INFO  time: code lens generation in 3.91s
+2023.04.23 14:07:57 INFO  time: code lens generation in 4.34s
+Apr 23, 2023 2:13:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2023 2:15:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2023 2:16:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 601
+2023.04.23 14:16:26 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:16:26 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:10:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:26 INFO  time: compiled hello-world in 0.13s
+2023.04.23 14:16:27 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:10:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:27 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:16:27 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:27 INFO  time: compiled hello-world in 37ms
+2023.04.23 14:16:32 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:32 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:32 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:32 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:16:32 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:32 INFO  time: compiled hello-world in 74ms
+2023.04.23 14:16:34 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:34 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:34 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:34 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:16:34 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:34 INFO  time: compiled hello-world in 0.12s
+2023.04.23 14:16:39 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:39 INFO  file:///C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/src/main/scala/demolambda/DemoLambda.scala:9:1: stale bloop error: unclosed string literal
+"
+^
+2023.04.23 14:16:40 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:16:40 INFO  time: compiled hello-world in 0.81s
+2023.04.23 14:29:11 INFO  Shutting down server
+2023.04.23 14:29:11 INFO  shutting down Metals
+2023.04.23 14:29:12 INFO  Shut down connection with build server.
+2023.04.23 14:29:12 INFO  Shut down connection with build server.
+2023.04.23 14:29:11 INFO  Exiting server
+2023.04.23 14:29:46 INFO  Started: Metals version 0.11.12 in workspace 'C:\GitRepo\ScalaProjects\firstScalaProject\hello-world' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 2:29:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 2:29:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 2:29:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 2:29:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\metals (H2 2.1)
+Apr 23, 2023 2:29:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.037s)
+Apr 23, 2023 2:29:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 2:29:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 14:29:48 INFO  time: initialize in 1.35s
+2023.04.23 14:29:51 INFO  Attempting to connect to the build server...
+2023.04.23 14:29:52 INFO  skipping build import with status 'Installed'
+2023.04.23 14:29:51 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:29:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:29:51 INFO  Attempting to connect to the build server...
+2023.04.23 14:29:51 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:29:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:29:51 INFO  time: Connected to build server in 0.54s
+2023.04.23 14:29:51 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 14:29:57 INFO  no build target found for C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\src\main\scala\demolambda\DemoLambda.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.23 14:29:58 INFO  time: code lens generation in 7.07s
+2023.04.23 14:29:58 INFO  time: Imported build in 0.17s
+2023.04.23 14:30:09 INFO  time: indexed workspace in 10s
+Apr 23, 2023 2:36:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2023 2:39:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.23 14:39:11 INFO  Shutting down server
+2023.04.23 14:39:11 INFO  shutting down Metals
+2023.04.23 14:39:11 INFO  Shut down connection with build server.
+2023.04.23 14:39:11 INFO  Shut down connection with build server.
+2023.04.23 14:39:11 INFO  Exiting server
+2023.04.23 14:39:31 INFO  Started: Metals version 0.11.12 in workspace 'C:\GitRepo\ScalaProjects\firstScalaProject\hello-world' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 2:39:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 2:39:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 2:39:31 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 2:39:32 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\metals (H2 2.1)
+Apr 23, 2023 2:39:32 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Apr 23, 2023 2:39:32 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 2:39:32 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 14:39:32 INFO  time: initialize in 1.12s
+2023.04.23 14:39:36 INFO  Attempting to connect to the build server...
+2023.04.23 14:39:36 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:39:36 INFO  skipping build import with status 'Installed'
+2023.04.23 14:39:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:39:36 INFO  Attempting to connect to the build server...
+2023.04.23 14:39:36 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:39:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:39:36 INFO  time: Connected to build server in 0.57s
+2023.04.23 14:39:37 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 14:39:37 INFO  time: Imported build in 0.27s
+2023.04.23 14:39:43 INFO  time: indexed workspace in 6.27s
+Apr 23, 2023 2:39:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.23 14:44:27 INFO  Shutting down server
+2023.04.23 14:44:27 INFO  shutting down Metals
+2023.04.23 14:44:27 INFO  Shut down connection with build server.
+2023.04.23 14:44:27 INFO  Shut down connection with build server.
+2023.04.23 14:44:27 INFO  Exiting server
+2023.04.23 14:44:57 INFO  Started: Metals version 0.11.12 in workspace 'C:\GitRepo\ScalaProjects\firstScalaProject\hello-world' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\metals (H2 2.1)
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.060s)
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 2:44:58 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 14:44:59 INFO  time: initialize in 1.35s
+2023.04.23 14:45:02 INFO  Attempting to connect to the build server...
+2023.04.23 14:45:02 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:45:02 INFO  skipping build import with status 'Installed'
+2023.04.23 14:45:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:45:02 INFO  Attempting to connect to the build server...
+2023.04.23 14:45:02 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:45:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:45:02 INFO  time: Connected to build server in 0.44s
+2023.04.23 14:45:02 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 14:45:02 INFO  time: Imported build in 0.22s
+2023.04.23 14:45:09 INFO  time: indexed workspace in 7.04s
+2023.04.23 14:54:56 INFO  Shutting down server
+2023.04.23 14:54:56 INFO  shutting down Metals
+2023.04.23 14:54:56 INFO  Shut down connection with build server.
+2023.04.23 14:54:56 INFO  Shut down connection with build server.
+2023.04.23 14:54:56 INFO  Exiting server
+2023.04.23 14:55:34 INFO  Started: Metals version 0.11.12 in workspace 'C:\GitRepo\ScalaProjects\firstScalaProject\hello-world' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 2:55:34 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 2:55:34 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 2:55:34 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 2:55:35 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\metals (H2 2.1)
+Apr 23, 2023 2:55:35 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Apr 23, 2023 2:55:35 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 2:55:35 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 14:55:36 INFO  time: initialize in 1.21s
+2023.04.23 14:55:38 INFO  Attempting to connect to the build server...
+2023.04.23 14:55:38 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:55:39 INFO  skipping build import with status 'Installed'
+2023.04.23 14:55:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:55:38 INFO  Attempting to connect to the build server...
+2023.04.23 14:55:38 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 14:55:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 14:55:39 INFO  time: Connected to build server in 0.59s
+2023.04.23 14:55:39 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 14:55:39 INFO  time: Imported build in 0.32s
+2023.04.23 14:55:47 INFO  time: indexed workspace in 7.21s
+Apr 23, 2023 2:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2023.04.23 14:57:45 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:57:47 INFO  time: compiled hello-world in 1.94s
+2023.04.23 14:57:47 INFO  compiling hello-world (1 scala source)
+2023.04.23 14:57:48 INFO  time: compiled hello-world in 0.35s
+2023.04.23 15:06:05 WARN  no build target for: C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\plugins.sbt
+2023.04.23 15:06:09 WARN  no build target for: C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\plugins.sbt
+2023.04.23 15:07:22 WARN  no build target for: C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\plugins.sbt
+2023.04.23 15:07:23 INFO  running 'C:\Program Files\appdev\tools\sdt\sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.23 15:07:23 ERROR Running process 'C:\Program Files\appdev\tools\sdt\sbt -Dbloop.export-jar-classifiers=sources bloopInstall' failed
+java.io.IOException: Cannot run program "C:\Program Files\appdev\tools\sdt\sbt" (in directory "C:\GitRepo\ScalaProjects\firstScalaProject\hello-world"): CreateProcess error=5, Access is denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.builds.ShellRunner.run(ShellRunner.scala:92)
+	at scala.meta.internal.builds.BloopInstall.runArgumentsUnconditionally(BloopInstall.scala:71)
+	at scala.meta.internal.builds.BloopInstall.$anonfun$runUnconditionally$1(BloopInstall.scala:46)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall(BloopInstallProvider.scala:19)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall$(BloopInstallProvider.scala:15)
+	at scala.meta.internal.builds.SbtBuildTool.bloopInstall(SbtBuildTool.scala:16)
+	at scala.meta.internal.builds.BloopInstall.runUnconditionally(BloopInstall.scala:44)
+	at scala.meta.internal.builds.BloopInstall.$anonfun$runIfApproved$2(BloopInstall.scala:139)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.builds.ShellRunner.run(ShellRunner.scala:92)
+	at scala.meta.internal.builds.BloopInstall.runArgumentsUnconditionally(BloopInstall.scala:71)
+	at scala.meta.internal.builds.BloopInstall.$anonfun$runUnconditionally$1(BloopInstall.scala:46)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall(BloopInstallProvider.scala:19)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall$(BloopInstallProvider.scala:15)
+	at scala.meta.internal.builds.SbtBuildTool.bloopInstall(SbtBuildTool.scala:16)
+	at scala.meta.internal.builds.BloopInstall.runUnconditionally(BloopInstall.scala:44)
+	at scala.meta.internal.builds.BloopInstall.$anonfun$runIfApproved$2(BloopInstall.scala:139)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.04.23 15:07:23 INFO  time: ran 'sbt bloopInstall' in 14ms
+2023.04.23 15:07:23 ERROR sbt command failed: C:\Program Files\appdev\tools\sdt\sbt -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.04.23 15:07:23 INFO  Disconnecting from Bloop session...
+2023.04.23 15:07:23 INFO  Shut down connection with build server.
+2023.04.23 15:07:23 INFO  Shut down connection with build server.
+2023.04.23 15:07:23 INFO  Attempting to connect to the build server...
+2023.04.23 15:07:23 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:07:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:07:23 INFO  Attempting to connect to the build server...
+2023.04.23 15:07:23 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:07:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:07:23 INFO  time: Connected to build server in 0.26s
+2023.04.23 15:07:23 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 15:07:24 INFO  time: Imported build in 0.14s
+2023.04.23 15:07:26 INFO  time: indexed workspace in 2.47s
+2023.04.23 15:07:26 WARN  no build target for: C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\plugins.sbt
+2023.04.23 15:07:29 INFO  time: code lens generation in 2.5s
+2023.04.23 15:07:55 INFO  running 'C:\Program Files\appdev\tools\sdt\sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.23 15:07:55 ERROR Running process 'C:\Program Files\appdev\tools\sdt\sbt -Dbloop.export-jar-classifiers=sources bloopInstall' failed
+java.io.IOException: Cannot run program "C:\Program Files\appdev\tools\sdt\sbt" (in directory "C:\GitRepo\ScalaProjects\firstScalaProject\hello-world"): CreateProcess error=5, Access is denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.builds.ShellRunner.run(ShellRunner.scala:92)
+	at scala.meta.internal.builds.BloopInstall.runArgumentsUnconditionally(BloopInstall.scala:71)
+	at scala.meta.internal.builds.BloopInstall.$anonfun$runUnconditionally$1(BloopInstall.scala:46)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall(BloopInstallProvider.scala:19)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall$(BloopInstallProvider.scala:15)
+	at scala.meta.internal.builds.SbtBuildTool.bloopInstall(SbtBuildTool.scala:16)
+	at scala.meta.internal.builds.BloopInstall.runUnconditionally(BloopInstall.scala:44)
+	at scala.meta.internal.metals.MetalsLspService.slowConnectToBloopServer(MetalsLspService.scala:2369)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$slowConnectToBuildServer$3(MetalsLspService.scala:2347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.builds.ShellRunner.run(ShellRunner.scala:92)
+	at scala.meta.internal.builds.BloopInstall.runArgumentsUnconditionally(BloopInstall.scala:71)
+	at scala.meta.internal.builds.BloopInstall.$anonfun$runUnconditionally$1(BloopInstall.scala:46)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall(BloopInstallProvider.scala:19)
+	at scala.meta.internal.builds.BloopInstallProvider.bloopInstall$(BloopInstallProvider.scala:15)
+	at scala.meta.internal.builds.SbtBuildTool.bloopInstall(SbtBuildTool.scala:16)
+	at scala.meta.internal.builds.BloopInstall.runUnconditionally(BloopInstall.scala:44)
+	at scala.meta.internal.metals.MetalsLspService.slowConnectToBloopServer(MetalsLspService.scala:2369)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$slowConnectToBuildServer$3(MetalsLspService.scala:2347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.04.23 15:07:55 INFO  time: ran 'sbt bloopInstall' in 2ms
+2023.04.23 15:07:55 ERROR sbt command failed: C:\Program Files\appdev\tools\sdt\sbt -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.04.23 15:07:55 INFO  Disconnecting from Bloop session...
+2023.04.23 15:07:55 INFO  Shut down connection with build server.
+2023.04.23 15:07:55 INFO  Shut down connection with build server.
+2023.04.23 15:07:55 INFO  Attempting to connect to the build server...
+2023.04.23 15:07:55 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:07:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:07:55 INFO  Attempting to connect to the build server...
+2023.04.23 15:07:55 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:07:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:07:55 INFO  time: Connected to build server in 0.14s
+2023.04.23 15:07:55 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 15:07:55 INFO  time: Imported build in 0.11s
+2023.04.23 15:07:58 INFO  time: indexed workspace in 2.73s
+2023.04.23 15:07:58 WARN  no build target for: C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\plugins.sbt
+2023.04.23 15:29:58 INFO  Shutting down server
+2023.04.23 15:29:58 INFO  shutting down Metals
+2023.04.23 15:29:58 INFO  Shut down connection with build server.
+2023.04.23 15:29:58 INFO  Shut down connection with build server.
+2023.04.23 15:29:58 INFO  Exiting server
+2023.04.23 15:30:42 INFO  Started: Metals version 0.11.12 in workspace 'C:\GitRepo\ScalaProjects\firstScalaProject\hello-world' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 3:30:42 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 3:30:42 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 3:30:42 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 3:30:44 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\metals (H2 2.1)
+Apr 23, 2023 3:30:45 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.237s)
+Apr 23, 2023 3:30:45 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 3:30:45 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 15:30:45 INFO  time: initialize in 3.59s
+2023.04.23 15:30:58 INFO  Attempting to connect to the build server...
+2023.04.23 15:30:58 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:30:59 INFO  skipping build import with status 'Failed'
+2023.04.23 15:31:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:31:00 INFO  Attempting to connect to the build server...
+2023.04.23 15:31:00 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:31:00 INFO  Attempting to connect to the build server...
+2023.04.23 15:31:00 INFO  Bloop uses C:\Program Files\appdev\tools\jdk\Java\jdk-17.0.7 defined at C:\Users\ivana\.bloop\bloop.json
+2023.04.23 15:31:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:31:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\.metals\bsp.trace.json or C:\Users\ivana\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 15:31:01 INFO  time: Connected to build server in 3.56s
+2023.04.23 15:31:01 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 15:31:15 INFO  no build target found for C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.23 15:31:16 INFO  time: code lens generation in 19s
+2023.04.23 15:31:16 ERROR Empty build targets. Expected at least one build target identifier.
+2023.04.23 15:31:16 ERROR Empty build targets. Expected at least one build target identifier.
+2023.04.23 15:31:16 ERROR Empty build targets. Expected at least one build target identifier.
+2023.04.23 15:31:16 ERROR Empty build targets. Expected at least one build target identifier.
+2023.04.23 15:31:16 INFO  time: Imported build in 0.72s
+2023.04.23 15:31:29 INFO  time: indexed workspace in 12s
+2023.04.23 15:33:18 INFO  compiling hello-world (2 scala sources)
+2023.04.23 15:33:19 INFO  Cancelling compilation on Bloop server
+2023.04.23 15:33:20 INFO  time: compiled hello-world in 2.12s
+2023.04.23 15:33:20 INFO  compiling hello-world (2 scala sources)
+2023.04.23 15:33:20 INFO  time: compiled hello-world in 0.86s
+2023.04.23 15:33:24 INFO  compiling hello-world (2 scala sources)
+2023.04.23 15:33:24 INFO  time: compiled hello-world in 0.97s
+2023.04.23 15:33:32 INFO  compiling hello-world (2 scala sources)
+2023.04.23 15:33:34 INFO  time: compiled hello-world in 1.93s
+2023.04.23 15:34:22 WARN  no build target for: C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\build.sbt
+2023.04.23 15:34:49 INFO  compilation cancelled
+2023.04.23 15:34:49 INFO  compilation cancelled
+2023.04.23 15:34:56 ERROR No project associated with Uri(file:/C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/?id=hello-world)
+2023.04.23 15:34:56 ERROR No project associated with Uri(file:/C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/?id=hello-world)
+2023.04.23 15:34:56 ERROR No project associated with Uri(file:/C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/?id=hello-world)
+2023.04.23 15:34:56 ERROR No project associated with Uri(file:/C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/?id=hello-world)
+2023.04.23 15:34:56 INFO  {
+  "jsonrpc": "2.0",
+  "id": "34",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/C:/GitRepo/ScalaProjects/firstScalaProject/hello-world/?id\u003dhello-world)"
+  }
+}
+Apr 23, 2023 3:35:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.23 15:35:36 INFO  Shutting down server
+2023.04.23 15:35:36 INFO  shutting down Metals
+2023.04.23 15:35:36 INFO  Shut down connection with build server.
+2023.04.23 15:35:36 INFO  Shut down connection with build server.
+2023.04.23 15:35:36 INFO  Shut down connection with build server.
+2023.04.23 15:35:36 INFO  Exiting server
+2023.04.23 15:35:52 INFO  Started: Metals version 0.11.12 in workspace 'C:\GitRepo\ScalaProjects\firstScalaProject\hello-world' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\GitRepo\ScalaProjects\firstScalaProject\hello-world\.metals\metals (H2 2.1)
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.033s)
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Apr 23, 2023 3:35:53 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.099s)
+2023.04.23 15:35:53 INFO  time: initialize in 0.99s
+2023.04.23 15:35:56 WARN  Build server is not auto-connectable.
+2023.04.23 15:36:12 INFO  Shutting down server
+2023.04.23 15:36:12 INFO  shutting down Metals
+2023.04.23 15:36:12 INFO  Exiting server
+2023.04.23 15:36:12 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
