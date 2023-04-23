@@ -6,6 +6,9 @@ I will be figuring out a way to deploy some basic websites that will be easier t
 
 I think I want to learn scala and try to deploy a full-stack app using just scala and aws. something primarily with those. probably start with just read and click functionality. Maybe I could somehow incorporate Redis for cache handling as well?
 
+currently working through this tutorial: timestamp: https://youtu.be/tNLS6rOGBlo?t=705
+
+
 At some point, I want to review C++ and do some data structures + algorithms with it. 
 
 practice scaling some app and measuring performance using some tool.
