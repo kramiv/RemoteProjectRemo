@@ -2,6 +2,8 @@
 # RemoteProjectRemo
 Remote github repository for my personal projects.
 
+taking more of a break this week due to schedule.
+
 todo:
 
 figure out deployment strategies with apps that use Scala. I can either build a local app and take screenshots or record a video demo or deploy it somehow. Maybe find some scala.js app to do first.
@@ -15,7 +17,7 @@ currently working through this tutorial: timestamp: https://youtu.be/tNLS6rOGBlo
 
 At some point, I want to review C++ and do some data structures + algorithms with it. 
 
-practice scaling some app and measuring performance using some tool.
+practice scaling some app and measuring performance using some tool and creating microservices or other types of system design strategy.
 
 https://stackshare.io/stackups/cplusplus-vs-scala
 
