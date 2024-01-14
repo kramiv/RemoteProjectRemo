@@ -5,6 +5,8 @@ Remote github repository for my personal projects.
 1/14/24:
 I watched this tutorial: 'How To Deploy ASP.NET Application with Azure SQL Database on Microsoft Azure Cloud'
 https://youtu.be/jT8eA9A7qXE
+It let me visually see what the app should look like. This particular tutorial did not explain the 'why' of what imports/etc were used. Just the 'what' and 'how'. 
+I'm going to look at microsoft's modules on Azure sql database connectivity as they are well-written and see what I can find.
 
 I found this awesome resource on learning system design. Well, a few. The donnemartin whatever one on github and this series of video lectures: 
 https://www.youtube.com/@SystemDesignInterview
