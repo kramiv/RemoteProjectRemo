@@ -10,7 +10,7 @@ watched this tutorial for basic CRUD syntax of C#
 https://youtu.be/BfEjDD8mWYg
 Then I watched this tutorial showing how to hook up sql to local database. 
 https://youtu.be/6joGkZMVX4o
-I'm not entirely sure what work needs to be done to move the data from local to cloud. it seems straightforward so far.
+I'm not entirely sure what would need to be done to move data from local to cloud. it seems straightforward so far.
 
 1/14/24:
 I watched this tutorial: 'How To Deploy ASP.NET Application with Azure SQL Database on Microsoft Azure Cloud'
