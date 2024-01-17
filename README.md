@@ -2,6 +2,9 @@
 # RemoteProjectRemo
 Remote github repository for my personal projects.
 
+1/17/24:
+have been taking notes in a google doc I will paste into git repo later for future reference
+
 1/15/24:
 watched this tutorial for basic CRUD syntax of C#
 https://youtu.be/BfEjDD8mWYg
