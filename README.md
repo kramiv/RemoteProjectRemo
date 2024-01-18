@@ -3,6 +3,11 @@
 Remote github repository for my personal projects.
 
 1/18/24:
+https://youtu.be/o5n85GRKuzk
+--> summary of video:
+
+
+1/18/24:
 I'm going to look at video tutorials as well. 
 I found this website with good tutorials per topic. The topics cover what I am taking notes on in the google doc. (both are good because google doc involves looking up specific code examples).
 will also try leetcoding more often and post screenshot of my solutions
