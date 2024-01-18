@@ -2,6 +2,11 @@
 # RemoteProjectRemo
 Remote github repository for my personal projects.
 
+1/18/24:
+I'm going to look at video tutorials as well. 
+I found this website with good tutorials per topic. The topics cover what I am taking notes on in the google doc. (both are good because google doc involves looking up specific code examples).
+will also try leetcoding more often and post screenshot of my solutions
+
 1/17/24:
 have been taking notes in a google doc I will paste into git repo later for future reference
 
