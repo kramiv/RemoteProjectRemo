@@ -2,10 +2,11 @@
 # RemoteProjectRemo
 Remote github repository for my personal projects.
 
+working through this leetcode to refamiliarize myself with Java syntax: https://leetcode.com/studyplan/top-interview-150/
+
 1/18/24:
 https://youtu.be/o5n85GRKuzk
 summary of video:
-
 
 
 1/18/24:
